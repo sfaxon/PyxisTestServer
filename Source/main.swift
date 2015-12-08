@@ -10,7 +10,7 @@ import PyxisServer
 let environment = NSProcessInfo.processInfo().environment
 var port = environment["PORT"]
 if port == nil || port == "" {
-    port = "8080"
+    port = "4000"
 }
 let portInt = UInt16(port!)
 
